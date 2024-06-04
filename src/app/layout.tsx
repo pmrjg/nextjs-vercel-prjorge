@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
     <GoogleAnalytics gaId="G-Q9R8DLCXMG"/>
     <body className={inter.className}>
-    <Cookiebanner/>
     {children}
+    <Cookiebanner/>
     </body>
     </html>
   );
