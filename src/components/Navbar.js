@@ -4,6 +4,7 @@ import Link from "next/link";
 import Logo from "@/components/Logo";
 import Image from "next/image";
 import {motion} from "framer-motion";
+import "./NavBar.css";
 
 const w1 = 48;
 
@@ -11,9 +12,9 @@ const MotionLink = motion(Link);
 
 const NavBar = () => {
     return (
-        <motion.div className="flex w-full px-2 py-2 font-medium items-center justify-between xs:flex-col">
-            <Logo/>
-            <motion.nav className="md:flex sm:flex-row rounded-full border-black border-2 pb-1 pt-1 px-2 m-2 bg-white" whileHover={{scale:1.1}} >
+        <motion.div className="flex w-full px-2 py-2 font-medium items-center justify-between xs:grid xs:grid-cols-8 xs:flex-row">
+            <Logo className="xs:w-fit"/>
+            <motion.nav className="md:flex rounded-full border-black border-2 pb-1 pt-1 px-1 m-0 bg-white xs:w-fit xs:flex-row" whileHover={{scale:1.1}} >
 
                     <MotionLink href="https://www.amazon.com/stores/R.-G.-Peter/author/B0CWNLR4MN" whileHover={{scale: 1.2}}>
                         <Image alt={"amazon"}
