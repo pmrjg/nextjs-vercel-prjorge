@@ -48,7 +48,7 @@ const Books = async () => {
                              width={"0"} height={"0"} whileHover={{scale: 1.4, rotate: 18}}/>
 
           </motion.div>
-
+        </motion.div>
 
     );
 }
