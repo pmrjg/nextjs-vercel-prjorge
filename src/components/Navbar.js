@@ -16,7 +16,7 @@ const NavBar = () => {
             <Logo className="xs:w-fit"/>
             <motion.nav className="md:flex rounded-full border-black border-2 pb-1 pt-1 px-1 m-0 bg-white xs:w-fit xs:flex-row" whileHover={{scale:1.1}} >
 
-                    <MotionLink href="https://www.amazon.com/stores/R.-G.-Peter/author/B0CWNLR4MN" whileHover={{scale: 1.2}}>
+                    <MotionLink href="https://www.amazon.com/stores/Pedro-Miguel-Rodrigues-Jorge/author/B0D8Q7LCG3" whileHover={{scale: 1.2}}>
                         <Image alt={"amazon"}
                                src={"/images/amazon.png"}
                                width={w1}
