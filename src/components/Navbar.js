@@ -24,7 +24,7 @@ const NavBar = () => {
                     </MotionLink>
 
 
-                    <MotionLink href="https://www.goodreads.com/author/show/48757905.R_G_Peter" whileHover={{scale: 1.24}}><Image alt={"goodreads"}
+                    <MotionLink href="https://www.goodreads.com/author/show/50838407.Pedro_Miguel_Rodrigues_Jorge" whileHover={{scale: 1.24}}><Image alt={"goodreads"}
                                                                                                  src={"/images/goodreads.png"}
                                                                                                  width={w1}
                                                                                                  height={w1}/></MotionLink>
