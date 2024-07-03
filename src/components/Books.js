@@ -39,15 +39,12 @@ const Books = async () => {
                              loading={"lazy"}
                              sizes="(max-width: 640px) 50vw,(max-width: 1280px) 100vw,(max-width: 1536px) 100vw, 95vw"
                              width={"0"} height={"0"} whileHover={{scale: 1.4, rotate: 18}}/>
-            </motion.div>
-           <motion.div className={"grid grid-cols-2 md:grid-cols-2 sm:grid sm:grid-cols-1 gap-4 sm:gap-1"}>
-                <MotionImage src={"/books/" + "mind_soul_good_death.png"} alt="Mind And Soul, Good and Death"
+                                 <MotionImage src={"/books/" + "mind_soul_good_death.png"} alt="Mind And Soul, Good and Death"
                              className="h-auto max-w-full w-full rounded-lg"
                              loading={"lazy"}
                              sizes="(max-width: 640px) 50vw,(max-width: 1280px) 100vw,(max-width: 1536px) 100vw, 95vw"
                              width={"0"} height={"0"} whileHover={{scale: 1.4, rotate: 18}}/>
-
-          </motion.div>
+            </motion.div>
         </motion.div>
 
     );
